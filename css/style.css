@@ -1,0 +1,40 @@
+.title {
+  background-color: white;
+}
+
+.info {
+  background-color: tan;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../images/brown-hardwood-lumber-139306.jpg"), no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/brown-hardwood-lumber-139306.jpg"), no-repeat center center fixed;
+  background-size: cover;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  background-color: white;
+}
+
+li {
+  float: left;
+  padding-right: 30px;
+  font-size: 25px;
+}
+
+#nav-logo {
+  height: 200px;
+}
+/*# sourceMappingURL=style.css.map */
