@@ -1,20 +1,44 @@
-.title {
-  background-color: white;
+.section {
+  height: 80vh;
+  padding: 10vh;
 }
 
-.info {
-  background-color: tan;
-}
-
-h1 {
-  text-align: center;
-  color: blue;
-}
-
-body {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../images/brown-hardwood-lumber-139306.jpg"), no-repeat center center fixed;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/brown-hardwood-lumber-139306.jpg"), no-repeat center center fixed;
+#home {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../images/breadboard.jpg"), no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/breadboard.jpg"), no-repeat center center fixed;
   background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+#logo {
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#about {
+  background-color: tan;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.about-text {
+  padding: 10vh;
+  color: #eeeaea;
+}
+
+#mary-photo {
+  height: 80vh;
 }
 
 ul {
@@ -23,18 +47,18 @@ ul {
   width: 100%;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 3vh;
   text-align: left;
-  background-color: white;
+  background-color: rgba(255, 248, 220, 0.8);
 }
 
 li {
   float: left;
-  padding-right: 30px;
-  font-size: 25px;
+  padding-right: 9vh;
+  font-size: 4vh;
 }
 
-#nav-logo {
-  height: 200px;
+li a {
+  color: green;
 }
 /*# sourceMappingURL=style.css.map */
