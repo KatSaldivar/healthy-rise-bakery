@@ -2,16 +2,24 @@
 <html lang="en">
     <head>
         <title>Healthy Rise Bakery</title>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./script.js"></script> 
         <link rel="stylesheet" href="./css/style.css"> 
     </head>
 
     <body>
-        <ul>
-            <li><a href="#home"> Healthy Rise Bakery</a></li>
+        <div id="navbar"></div>
+        <!--<ul>
+            <li>Healthy Rise Bakery</li>
             <li><a href = "#home"> Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
-        </ul>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="#bread-bus">Bread Bus</a></li>
+            <li><a href="#coffee-shop">Shops</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>-->
         
         <div id = "home" class="section">
             
@@ -19,16 +27,57 @@
         </div>
         <div id= "about" class="section" >
             <img id="mary-photo" src="/images/Mary-edited.jpg" alt="Mary, the founder of Healthy Rise posing with bread.">
-            
-            <p class ="about-text">Mary is a Registered Dietitian and member of Bread Bakers Guild of America who thinks food can be satisfying,
-             and healthy without being supersized or loaded with calories and fat. She bakes using organic ingredients 
-             mostly from local sources. Our bakers start work before the sun rises each day to ensure that every batch 
+            <div class ="text">
+                <h1>About Healthy Rise Bakery</h1>
+                <p>Mary is a Registered Dietitian and member of Bread Bakers Guild of America who thinks food 
+                can be satisfying and healthy without being supersized or loaded with calories and fat. She bakes using organic 
+                ingredients mostly from local sources. Our bakers start work before the sun rises each day to ensure that every batch 
              is as fresh as possible before it gets to you. We're dedicated to kickstarting your morning with warm muffins,
               rolls and bread and gluten free desserts. We buy local and grind our own flour for every batch. We love  supplying
                local coffee shops/cafes and working with businesses to deliver fresh bread, rolls, muffins and gluten free muffins 
                and cookies to your employees for greater employee engagement.
-            </p>
+                </p>
+            </div>
         </div>
+
+        <div id="bread-bus" class="section">
+            <h1>Join the Bread Bus!</h1></br></br>
+            <p>Bread Bus is a delivery service bringing fresh baked items to your work!</br></br>
+            
+            Talk to co-workers, pay online and Healthy Rise Bakery will deliver freshly 
+            baked gluten free muffins, cookies and  craft breads from sprouted grain and 
+            fresh milled flour. Healthy tasty goodness coming to you. Contact us today!</br></br>
+
+            Arrange a contact person at work. Each participant makes their selection 
+            and pays for bread or gluten free desserts online in $4.50 increments. 
+            Healthy Rise will deliver to you once per week. Minimum order is 5 loaves 
+            of bread or $4.50 units.</p>
+        </div>
+
+        <div id="coffee-shop" class="section">
+                <h1>Locate us in the wild!</h1>
+                Healthy Rise products are also available in at local coffee shops. 
+                Find us at: (list of shops here)  
+        </div>
+
+        <div id="gallery" class="section">
+            Gallery
+    
+        </div>
+
+        <div id="contact" class="section">
+            <h1>Contact us!</h1>
+            <h2>Hours</h2>
+            <p>Monday - Saturday: 6:30am - 2pm</br>
+            Sunday: Closed</br>
+            (319) 431-8764</br>
+            </p>
+            facebook
+        </div>
+
+        <!-- ADD CONTACT FORM AND ECOMMERCE PORTION -->
+
+        <footer><p>Copyright © 2018 Healthy Rise Bakery - All Rights Reserved.</p></footer>
 
     </body>
 </html>

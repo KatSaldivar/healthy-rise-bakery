@@ -1,10 +1,14 @@
+body {
+    text-align: center;
+    color: rgb(238, 234, 234);
+}
 .section{
     height: 80vh;
     padding: 10vh;
+    background-color: darkolivegreen;
 }
 #home {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../images/breadboard.jpg'), no-repeat center center fixed;
-    background-size: cover;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -20,12 +24,9 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-
-
 }
-.about-text{
+.text{
     padding: 10vh;
-    color: rgb(238, 234, 234);
 }
 #mary-photo {
     height: 80vh;
@@ -44,7 +45,14 @@ li {
     float: left;
     padding-right: 9vh;
     font-size: 4vh;
+    color: green;
 }
 li a{
     color: green;
+}
+footer{
+    height: 5vh;
+    width: 100%;
+    background-color: darkslategray;
+    padding: 3vh;
 }
