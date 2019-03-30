@@ -37,18 +37,34 @@ ul {
     width: 100%;
     list-style-type: none;
     margin: 0;
-    padding: 3vh;
     text-align:left;
     background-color: rgba(255,248,220,0.8);
 }
 li {
     float: left;
-    padding-right: 9vh;
+    padding: 3vh;
     font-size: 4vh;
-    color: green;
 }
 li a{
     color: green;
+    text-decoration: none;
+}
+a:hover {
+    text-shadow: .5px 0 0 currentColor;
+    cursor:pointer;
+  }
+#nav-logo {
+    height: 15vh;
+    padding: 0vh;
+}
+.fa {
+    padding: 2vh;
+    font-size: 100vh;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #3C5A99;
+    color: rgb(238, 234, 234);
 }
 footer{
     height: 5vh;
@@ -56,3 +72,7 @@ footer{
     background-color: darkslategray;
     padding: 3vh;
 }
+.circle {
+    content: ' \25CF';
+    font-size: 200px;
+  }
