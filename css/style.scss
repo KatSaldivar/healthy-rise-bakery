@@ -39,10 +39,13 @@ ul {
     margin: 0;
     text-align:left;
     background-color: rgba(255,248,220,0.8);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
-li {
+.nav-text {
     float: left;
-    padding: 3vh;
+    padding: 4vh;
     font-size: 4vh;
 }
 li a{
@@ -55,7 +58,6 @@ a:hover {
   }
 #nav-logo {
     height: 15vh;
-    padding: 0vh;
 }
 .fa {
     padding: 2vh;
