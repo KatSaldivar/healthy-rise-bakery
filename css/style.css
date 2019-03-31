@@ -1,6 +1,11 @@
 body {
   text-align: center;
   color: #eeeaea;
+  font-family: 'Overpass', Sans-Serif;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
 }
 
 .section {
@@ -10,8 +15,8 @@ body {
 }
 
 #home {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../images/breadboard.jpg"), no-repeat center center fixed;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/breadboard.jpg"), no-repeat center center fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/baguette-bake-baked-717130.jpg"), no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/baguette-bake-baked-717130.jpg"), no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -66,8 +71,9 @@ ul {
 
 .nav-text {
   float: left;
-  padding: 4vh;
+  padding: 2vh;
   font-size: 4vh;
+  font-family: 'Permanent Marker', cursive;
 }
 
 li a {
@@ -81,7 +87,7 @@ a:hover {
 }
 
 #nav-logo {
-  height: 15vh;
+  height: 10vh;
 }
 
 .fa {
