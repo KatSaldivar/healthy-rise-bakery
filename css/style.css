@@ -1,11 +1,11 @@
 body {
   text-align: center;
   color: #eeeaea;
-  font-family: 'Overpass', Sans-Serif;
+  font-family: 'Open Sans', Sans-Serif;
 }
 
 h1 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .section {
@@ -72,8 +72,8 @@ ul {
 .nav-text {
   float: left;
   padding: 2vh;
-  font-size: 4vh;
-  font-family: 'Permanent Marker', cursive;
+  font-size: 3vh;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 li a {
